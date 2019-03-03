@@ -23,7 +23,7 @@ The console and chat output when "!pick" was typed by someone with the appropria
 
 Install this using `pip install git+https://github.com/CubieDev/TwitchWebsocket.git`
 
-This last library is my own TwitchWebsocket wrapper, which makes making a Twitch chat bot a lot easier.
+This last library is my own [TwitchWebsocket](https://github.com/CubieDev/TwitchWebsocket) wrapper, which makes making a Twitch chat bot a lot easier.
 This repository can be seen as an implementation using this wrapper.
 
 ---
@@ -71,3 +71,7 @@ This bot is controlled by a settings.txt file, which looks like:
 I got my real OAuth token from https://twitchapps.com/tmi/.
 
 ---
+
+# Other Twitch Bots
+
+* [TwitchGoogleTranslate](https://github.com/CubieDev/TwitchGoogleTranslate)
