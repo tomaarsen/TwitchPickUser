@@ -1,0 +1,20 @@
+{
+    "Host": "irc.chat.twitch.tv",
+    "Port": 6667,
+    "Channel": "#<channel>",
+    "Nickname": "<name>",
+    "Authentication": "oauth:<auth>",
+    "SubscriberWeight": 3,
+    "NonSubscriberWeight": 1,
+    "RequiredRankToUseCommand": [
+        "broadcaster",
+        "moderator",
+        "subscriber"
+    ],
+    "BotAccountsToExclude": [
+        "StreamElements",
+        "MarbieBot",
+        "Nightbot"
+    ],
+    "MaxTimeSinceLastChat": 300
+}
