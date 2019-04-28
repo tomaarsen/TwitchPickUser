@@ -67,10 +67,14 @@ class VoteBot:
         self.chatters = {}
         self.t_reset = round(time.time())
 
-        self.ws = TwitchWebsocket(self.host, self.port, self.message_handler, live=True)
-        self.ws.login(self.nick, self.auth)
-        self.ws.join_channel(self.chan)
-        self.ws.add_capability(["membership", "tags", "commands"])
+        self.ws = TwitchWebsocket(host=self.host, 
+                                  port=self.port,
+                                  chan=self.chan,
+                                  nick=self.nick,
+                                  auth=self.auth,
+                                  callback=self.message_handler,
+                                  capability=["membership", "tags", "commands"],
+                                  live=True)
 
     def setSettings(self, host, port, chan, nick, auth, sub_weight, reg_weight, req_ranks, accounts_to_exclude, timeout):
         self.host = host
