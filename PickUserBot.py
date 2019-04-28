@@ -75,6 +75,7 @@ class VoteBot:
                                   callback=self.message_handler,
                                   capability=["membership", "tags", "commands"],
                                   live=True)
+        self.ws.start_bot()
 
     def setSettings(self, host, port, chan, nick, auth, sub_weight, reg_weight, req_ranks, accounts_to_exclude, timeout):
         self.host = host
