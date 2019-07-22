@@ -1,5 +1,5 @@
 # TwitchPickUser
-Simple Twitch Bot which semi-randomly picks a recent chatter from Chat.
+Simple Twitch Bot which semi-randomly picks a recent chatter from chat.
 
 ---
 # Explanation
@@ -79,6 +79,7 @@ I got my real OAuth token from https://twitchapps.com/tmi/.
 * [TwitchRhymeBot](https://github.com/CubieDev/TwitchRhymeBot)
 * [TwitchCubieBotGUI](https://github.com/CubieDev/TwitchCubieBotGUI)
 * [TwitchCubieBot](https://github.com/CubieDev/TwitchCubieBot)
+* [TwitchWeather](https://github.com/CubieDev/TwitchWeather)
 * [TwitchDeathCounter](https://github.com/CubieDev/TwitchDeathCounter)
 * [TwitchSuggestDinner](https://github.com/CubieDev/TwitchSuggestDinner)
 * [TwitchSaveMessages](https://github.com/CubieDev/TwitchSaveMessages)
