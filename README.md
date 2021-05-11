@@ -9,6 +9,8 @@ This allows you to impact exactly how you want the users to be picked, even allo
 
 When you want to actually pick a user, anyone with a rank listed in "RequiredRankToUseCommand" will be able to type "!pick" in Twitch Chat, and the Bot will automatically respond with the winner.
 
+---
+
 # Example
 
 The console and chat output when "!pick" was typed by someone with the appropriate rank:
